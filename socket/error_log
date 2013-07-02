@@ -1,0 +1,13 @@
+[29-Jun-2013 04:16:42 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/kejavico/public_html/core/init.inc.php:12
+Stack trace:
+#0 /home/kejavico/public_html/core/init.inc.php(12): PDO->__construct('mysql:host=keja...', 'kejavico_chatap...', 'gardner1')
+#1 /home/kejavico/public_html/socket/index.php(6): require_once('/home/kejavico/...')
+#2 {main}
+  thrown in /home/kejavico/public_html/core/init.inc.php on line 12
+[29-Jun-2013 15:52:09 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/kejavico/public_html/socket/index.php:22
+Stack trace:
+#0 /home/kejavico/public_html/socket/index.php(22): PDO->__construct('mysql:host=keja...', 'kejavico_chatap...', 'gardner1')
+#1 {main}
+  thrown in /home/kejavico/public_html/socket/index.php on line 22
+[30-Jun-2013 23:42:16 Europe/Moscow] PHP Fatal error:  Only variables can be passed by reference in /home/kejavico/public_html/socket/index.php on line 29
+[30-Jun-2013 23:47:46 Europe/Moscow] PHP Fatal error:  Only variables can be passed by reference in /home/kejavico/public_html/socket/index.php on line 42

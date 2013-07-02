@@ -8,7 +8,7 @@
     <body>
     
     	<div id="topbar">
-        
+            TEST
         </div>
 
         <div id="leftbar">
